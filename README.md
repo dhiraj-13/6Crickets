@@ -1,6 +1,15 @@
 # 6Crickets
 6Crickets_angular_project
 
+i am using following Versions 
+
+Angular CLI: 18.2.12 ( standalone: true)
+Node: 22.11.0
+npm: 11.5.2
+
+request you to install npm "npm install"
+also install CORS (npm install Cors)
+
 
 1.Open 2 Terminals
    - One Integerated terminal in countdown-api.
