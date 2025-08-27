@@ -25,7 +25,8 @@ export class SharedCountdownService {
     interval(1000)
       .pipe(
         // https://solid-space-guacamole-p9qrg4jwvwrc7pqv-3000.app.github.dev/
-        switchMap(() => this.http.get<{ secondsLeft: number }>('https://solid-space-guacamole-p9qrg4jwvwrc7pqv-3000.app.github.dev/countdown'))
+        // switchMap(() => this.http.get<{ secondsLeft: number }>('https://localhost:3000/'))
+        switchMap(() => this.http.get<{ secondsLeft: number }>('http://localhost:3000/countdown'))
       )
       .subscribe((response) => {
         console.log('API response:', response);
