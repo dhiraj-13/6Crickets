@@ -2,6 +2,9 @@
 6Crickets_angular_project
 
 
+
+In Codespace this is already created access this "solid space guacamole"
+
 1. Open 2 Terminals
    - One Integerated terminal in countdown-api.
    - Another integerated terminal in countdown-app.
