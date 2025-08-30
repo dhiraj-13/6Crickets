@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const targetTime = new Date('2025-08-29T00:00:00').getTime();  // can change targe date deadline
+const targetTime = new Date('2025-09-07T00:00:00').getTime();  // can change targe date deadline
 // const targetTime = new Date().getTime(); // 60 seconds from now
 console.log("target time is", targetTime);
 
